@@ -1,0 +1,332 @@
+
+@font-face{
+    font-family: 'MedievalSharp';
+    src: url( fuentes/MedievalSharp-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Almendra';
+    src: url( fuentes/Almendra-Bold.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url( fuentes/EBGaramond-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{ 
+    text-align: center;
+        color: black;
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 100px;  }
+
+#inicio h1 {
+    font-family: 'MedievalSharp', cursive;
+    color: black;
+    margin: 100px auto 40px auto;
+    text-align: center;
+    background-color: rgb(232, 218, 195);
+    width: 75%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(223, 228, 138, 0.938);
+}
+
+h2,h3,h4{
+    text-align: center;
+    color: black;
+    font-family: 'Almendra', serif;
+}
+
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;      
+    font-size: 1.1rem;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navbar-toggler {
+    border-color: #dec69b;
+}
+.historia{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.periodos{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.sonido{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.intencidadyaltura{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.familias{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+        padding: 30px;
+    border-radius: 20px;    
+}
+
+.familias_lista{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+.intencidadyaltura {
+    display: flex;        
+    gap: 20px;            
+    align-items: flex-start;/
+}
+
+.videoexplicativo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;    
+    height: 100px;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 150%;
+    background-color: rgb(232, 218, 195);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 90px;
+    width: 200px;
+    text-align: center;
+    margin-top: -150px;
+    display: inline-flex;  
+    align-items: center;   
+    justify-content: center; 
+    transition: all 0.3s ease;
+    animation: flotar 3s ease-in-out infinite;
+}
+.link:hover {
+    background-color: rgb(177, 137, 84);
+    transform: scale(1.1); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    animation-play-state: paused;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } 
+    100% { transform: translateY(0px); }
+}
+
+.lista_cuerdas{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.lista_cuerdas ul{
+    list-style: none;
+    padding: 0% ;
+}
+
+.lista_vientos{
+        display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.lista_vientos ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.lista_percucion{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.lista_percucion ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.lenguaje_musicalinfo{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+.escalaDO{
+    display: flex;
+    justify-content: center;
+}
+
+.claves, .silences, .pentamgrama {
+    width: 100%; 
+    max-width: 550px; 
+    height: auto;     
+    margin: 25px auto;
+    display: block;
+    border-radius: 8px;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1)); 
+}
+
+.ejemplos_audiciones{
+    background-color: rgb(232, 218, 195);
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 20px;    
+}
+.audicionesvideos{
+    text-align: center;
+    gap: 50px;
+    list-style: none;
+}
+
+
+a{
+    font-size: 150%;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.formulario-seccion {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: rgba(222, 198, 155, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    font-family: 'MedievalSharp', cursive;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input, .campo select {
+    padding: 10px;
+    border: 1px solid #8b5a2b;
+    border-radius: 5px;
+    font-family: sans-serif; 
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #ffcc00;
+    color: black;
+} 
+
+
+.bg-crema {
+    background-color: rgb(232, 218, 195);
+}
+
+.titulo_principal:hover {
+    transform: scale(1.05); 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+    animation: fadeIn 0.8s ease-out;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px; 
+}
+
+
+.nav-link {
+    font-family: 'Almendra', serif;
+    color: #dec69b !important;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+        border-color: #dec69b;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+
+section {
+    scroll-margin-top: 90px;
+}
+
+
+.historia, .periodos, .sonido, .intencidadyaltura, 
+.familias, .familias_lista, .lenguaje_musicalinfo, 
+.ejemplos_audiciones {
+    width: 90%;            
+    max-width: 850px;      
+    margin: 40px auto;     
+    padding: 25px;         
+}
+
+
